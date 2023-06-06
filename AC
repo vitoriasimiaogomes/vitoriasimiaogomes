@@ -1,0 +1,49 @@
+Vitória de Lima Simião Gomes
+Ibmec - Centro
+Programação e Direito
+Atividade Complementar
+
+
+As três linguagens de programação que escolhi são: Python, Java e JavaScript.
+
+
+Python:
+* Python é uma linguagem de programação de alto nível, com uma sintaxe simples e fácil de aprender e usar.
+* É uma linguagem interpretada, o que significa que não precisa ser compilada antes de ser executada, tornando-a muito rápida para prototipagem e desenvolvimento ágil.
+* Python é frequentemente usado para inteligência artificial, análise de dados, desenvolvimento web e automação de tarefas.
+
+
+Python - Programa para calcular a média de uma lista de números:
+numeros = [10, 20, 30, 40, 50]
+soma = sum(numeros)
+media = soma / len(numeros)
+print("A média é:", media)
+A média é: 30.0
+
+
+Java:
+* Java é uma linguagem de programação de propósito geral, conhecida por sua portabilidade, segurança e robustez.
+* É uma linguagem compilada, o que significa que o código-fonte precisa ser convertido em código executável antes de ser executado.
+* Java é frequentemente usado para desenvolvimento de aplicativos de desktop, aplicativos móveis, desenvolvimento web, jogos e sistemas de back-end.
+
+Programa para converter Celsius em Fahrenheit:
+import java.util.Scanner;
+
+public class CelsiusToFahrenheit {
+   public static void main(String[] args) {
+   Scanner scanner = new Scanner(System.in);
+    System.out.print("Digite a temperatura em Celsius: ");
+    double celsius = scanner.nextDouble();
+    double fahrenheit = (celsius * 9 / 5) + 32;
+    System.out.println(celsius + " graus Celsius equivalem a " + fahrenheit + " graus Fahrenheit.");
+    
+    
+ JavaScript:
+ * JavaScript é uma linguagem de programação de alto nível, usada principalmente para desenvolvimento web.
+ * É uma linguagem interpretada, o que significa que não precisa ser compilada antes de ser executada, tornando-a muito rápida para prototipagem e desenvolvimento ágil.
+ * JavaScript é frequentemente usado para desenvolvimento front-end de sites e aplicativos web, criação de animações, interatividade de páginas e validação de formulários.
+ 
+ Programa para mudar a cor do fundo da página quando o botão é clicado:
+<button onclick="mudarCor()">Mudar Cor</button>
+     
+
